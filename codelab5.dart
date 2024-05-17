@@ -123,7 +123,7 @@ void countSeconds(int s) {
 }
 
 // Parte 2
-// TODO: Implementa la función reportUserRole aquí.
+
 Future<String> reportLogins() async {
   final logins = await fetchLoginAmount();
   return 'Número total de inicios de sesión: $logins';
@@ -272,7 +272,6 @@ void main() async {
 
 // Ejercicio: Practica el manejo de errores
 
-// TODO: Implementa changeUsername aquí.
 /*Future<String> changeUsername() async {
   try {
     return await fetchNewUsername();

@@ -1,4 +1,4 @@
-// Codelab 2 Yasser Alezazandre Saldaña Barquero Dart CheatSheet 
+// Codelab 2 Yasser Alezazandre Saldaña Barquero Dart CheatSheet
 
 // Interpolación de cadenas
 
@@ -736,7 +736,6 @@ class FirstTwoLetters {
   final String letterOne;
   final String letterTwo;
 
-  // TODO: Crea un constructor con una lista de inicializadores aquí:
   FirstTwoLetters(String word)
       : assert(word.length >= 2),
         letterOne = word[0],
@@ -793,7 +792,6 @@ void main() {
 
   Color(this.red, this.green, this.blue);*/
 
-// TODO: Crea el constructor con nombre "Color.black" aquí:
 /*Color.black()
       : red = 0,
         green = 0,
